@@ -25,7 +25,7 @@ section {
     padding: 50px;
 }
 #section01,
-#section11{
+#section09{
     background-color: white;
     padding: 0;
 }
@@ -35,17 +35,20 @@ section {
 .flex {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 70px;
 }
+#section02 .flex {
+    flex-direction: column;
+}
 .img01 {
-    width:53%;
+    width:100%;
 }
 .img02 {
-    width: 23%;
+    width: 100%;
 }
 .img03 {
-    width: 29%;
+    width: 30%;
 }
 .flex p {
     font-size: 18px;
@@ -53,10 +56,10 @@ section {
     color: #000000;
 }
 .img04 {
-    width: 60%;
+    width: 30%;
 }
 .img05 {
-    width: 30%;
+    width: 10%;
 }
 .img06 {
     width: 30%;
@@ -73,7 +76,7 @@ section {
     width: 50%;
 }
 .img09 {
-    width: 50%;
+    width: 20%;
 }
 .img10 {
     width: 50%;
@@ -86,18 +89,5 @@ section {
 }
 .img13 {
     width: 30%;
-}
-.img14 {
-    width: 38%;
-}
-
-#section10 .flex {
-    flex-direction: column;
-}
-.img15 {
-    width: 60%;
-}
-.img16 {
-    width: 60%;
 }
 
